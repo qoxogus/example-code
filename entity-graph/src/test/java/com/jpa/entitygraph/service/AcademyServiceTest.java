@@ -51,7 +51,7 @@ class AcademyServiceTest {
         List<String> subjectNames = academyService.findAllSubjectNames();
 
         //then
-        assertEquals(subjectNames.size(), 10);
+        assertEquals(10, subjectNames.size());
     }
 
     @Test
